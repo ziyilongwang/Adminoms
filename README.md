@@ -12,26 +12,23 @@
 本项目集成工单系统、发布系统、dns和zabbix管理、saltstack管理。
 
 
-[文档查看](https://itimor.github.io/django-oms/)
-
-[线上demo](http://oms.itimor.cf/)  ### 地址已经失效
 
 ```
 用户名：admin
-密码: 有人喜欢删admin用户，具体长什么样子看文档吧
+密码: 
 ```
 
 ## 项目实践
 
 ### 1. 克隆项目
 ``` bash
-git clone https://github.com/itimor/django-oms.git
+git clone https://github.com/ziyilongwang/Adminoms.git
 ```
 
 ### 2. 后端
 ```
 # 安装python依赖
-cd omsBackend
+cd adminbackend
 pip install -r requirements.txt
 
 # 生成数据库文件
@@ -57,22 +54,8 @@ npm install
 npm install --registry=https://registry.npm.taobao.org
 
 # 本地开发 开启服务
-npm run dev
+cnpm run dev
 
 # 打包
-npm run build
-```
-
-## 项目后续功能
-- [ ] 周报系统
-> 每周结束之前在oms系统上发布周报，方便领导统计、查看。
-
-- [ ] 继续想新功能
-
-> 本地查看文档
-
-```
-mkdocs serve --dev-addr=0.0.0.0:5000
-mkdocs build
-mkdocs gh-deploy
+cnpm run build
 ```
