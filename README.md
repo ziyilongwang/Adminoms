@@ -1,7 +1,7 @@
 # Adminoms运维管理系统
 
 [![python3.x](https://img.shields.io/badge/python-3.X-blue.svg)](https://www.python.org/)
-[![django](https://img.shields.io/badge/django-1.11-blue.svg)](https://www.djangoproject.com/)
+[![django](https://img.shields.io/badge/django-2.1.7-blue.svg)](https://www.djangoproject.com/)
 [![django-rest-framework](https://img.shields.io/badge/djangorestframework-3.6.3-blue.svg)](http://www.django-rest-framework.org/)
 [![celery](https://img.shields.io/badge/celery-4.1.0-green.svg)](http://www.celeryproject.org/)
 [![vue](https://img.shields.io/badge/vue-2.5.9-brightgreen.svg)](https://github.com/vuejs/vue)
