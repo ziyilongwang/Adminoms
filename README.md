@@ -1,4 +1,4 @@
-# oms运维管理系统 #
+# Adminoms运维管理系统
 
 [![python3.x](https://img.shields.io/badge/python-3.X-blue.svg)](https://www.python.org/)
 [![django](https://img.shields.io/badge/django-1.11-blue.svg)](https://www.djangoproject.com/)
